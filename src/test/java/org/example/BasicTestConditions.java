@@ -5,7 +5,7 @@ import org.testng.annotations.BeforeTest;
 
 public class BasicTestConditions {
     @BeforeTest
-    public void setUpBrowser() {
+    public void actionsBeforeTest() {
         System.out.println("Test " + this.getClass().getName() + " started");
     }
 
